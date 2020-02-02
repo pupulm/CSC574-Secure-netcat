@@ -26,3 +26,5 @@ The execution of this script also creates two logging files in the same director
 * Client will read from stdin and send AES GCM protected data to instance running on server
 * Server will read the file, decrypt, validate data and write to stdout
 * Both instances should terminate connection when EOF is found, OR a keyboard interrupt
+
+Additionally, netcat_final.py is attached that has the code with .py extension
